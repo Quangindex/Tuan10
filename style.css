@@ -1,0 +1,162 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #3a3535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 17px;
+    position: relative;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    background: #fff;
+    width: 0;
+    transition: .3s;
+}
+
+.navbar a:hover:before {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 15px;
+    background-color: #3a3535;
+}
+
+.header-landing {
+    background-image: url(rolls-4965915_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-position: center center;
+    padding-right: 0;
+}
+
+.header-landing .head {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.header-landing .header-introduce {
+    margin-bottom: 65px;
+    font-size: 72px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 100px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.click {
+    padding: 25px 45px;
+    background-color: #ffc800;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.end:hover {
+    background-color: #d9aa00;
+    transition: 600ms;
+}
+
+.header-landing .click:hover {
+    cursor: pointer;
+}
+
+.content-section {
+    padding-top: 100px;
+    width: 1300px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+
+.content .row .port img {
+    border-radius: 20%;
+    width: 220px;
+    height: 220px;
+}
+
+.text-heading {
+    width: 250px;
+    position: relative;
+    left: 226px;
+    top: -200px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-heading button {
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+button {
+    padding: 15px 15px;
+    border: none;
+    background: #ffc800;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.text-heading button a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-heading button:hover {
+    background-color: #d9aa00;
+}
